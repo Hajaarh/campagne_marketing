@@ -3,6 +3,7 @@ import scipy
 import seaborn
 import matplotlib.pyplot
 import numpy
+<<<<<<< HEAD
 
 
 #  Google Sheets CSV export link
@@ -12,3 +13,7 @@ df = pandas.read_excel(csv_url)
 
 # Check the data
 print(df.head())
+=======
+df = pandas.read_excel('Business_Case.xlsx')
+print("hello")
+>>>>>>> dev_h
